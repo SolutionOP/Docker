@@ -1,0 +1,7 @@
+services:
+  helloworld:
+    build: .
+  proxies:
+    build: proxy/.
+    ports:
+    - "80:8080"
